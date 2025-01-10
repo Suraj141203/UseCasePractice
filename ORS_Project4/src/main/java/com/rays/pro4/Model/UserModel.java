@@ -382,7 +382,7 @@ public class UserModel {
 			if (bean.getDob() != null && bean.getDob().getTime() > 0) {
 				System.out.println("done");
 				Date d = new Date(bean.getDob().getTime());
-				sql.append(" and DOB = '" + d+ "'");
+				sql.append(" and DOB = '" + d + "'");
 				
 			}
 			if (bean.getMobileNo() != null && bean.getMobileNo().length() > 0) {

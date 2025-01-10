@@ -176,7 +176,7 @@ public class PurchaseModel {
 			}
 			if (bean.getOrderDate() != null && bean.getOrderDate().getTime() > 0) {
 				Date d = new Date(bean.getOrderDate().getDate());
-				sql.append(" AND ORDER_DATE like '" + new java.sql.Date(bean.getOrderDate().getTime()) + "%'");
+				sql.append(" AND ORDER_DATE = '" + d + "'");
 			}
 
 			if (bean.getCost() > 0) {

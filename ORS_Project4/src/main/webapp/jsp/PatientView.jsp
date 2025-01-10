@@ -116,7 +116,7 @@
 				<tr>
 					<th align="left">Decease <span style="color: red">*</span> :
 					</th>
-					<td><%=HTMLUtility.getList("decease", String.valueOf(bean.getDecease()), map)%>
+					<td><%=HTMLUtility.getList2("decease", String.valueOf(bean.getDecease()), map)%>
 
 						<font color="red"> <%=ServletUtility.getErrorMessage("decease", request)%></font></br>
 
