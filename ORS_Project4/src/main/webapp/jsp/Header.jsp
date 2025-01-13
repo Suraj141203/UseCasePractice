@@ -86,9 +86,17 @@
 					href="<%=ORSView.PATIENT_CTL%>">Add Patient</b></a> | <a
 					href="<%=ORSView.PATIENT_LIST_CTL%>">Patient List</b></a> | <a
 					href="<%=ORSView.PURCHASE_CTL%>">Add Purchase</b></a> | <a
-					href="<%=ORSView.PURCHASE_LIST_CTL%>">Purchase List</b></a> | <a
+					href="<%=ORSView.PURCHASE_LIST_CTL%>">Purchase List</b></a> |
+					<a
+					href="<%=ORSView.FOLLOWUP_CTL%>">Add FollowUp</b></a> | <a
+					href="<%=ORSView.FOLLOWUP_LIST_CTL%>">FollowUp List</b></a>  |
+					<a
 					href="<%=ORSView.CUSTOMER_CTL%>">Add Customer</b></a> | <a
-					href="<%=ORSView.CUSTOMER_LIST_CTL%>">Customer List</b></a> | <%--  <a
+					href="<%=ORSView.CUSTOMER_LIST_CTL%>">Customer List</b></a> |
+					
+					<a
+					href="<%=ORSView.FAVOURITE_CTL%>">Add Favourite</b></a> | <a
+					href="<%=ORSView.FAVOURITE_LIST_CTL%>">Favourite List</b></a> | <%--  <a
 					href="<%=ORSView.STOCK_CTL%>">Add Stock</b></a> | <a
 					href="<%=ORSView.STOCK_LIST_CTL%>">Stock List</b></a>  | --%> <a
 					target="blank" href="<%=ORSView.JAVA_DOC_VIEW%>">Java Doc</b></a> <%

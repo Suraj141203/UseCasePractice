@@ -54,8 +54,14 @@ public interface ORSView {
 	public String PATIENT_VIEW = PAGE_FOLDER + "/PatientView.jsp";
 	public String PATIENT_LIST_VIEW = PAGE_FOLDER + "/PatientListView.jsp";
 	
+	public String FOLLOWUP_VIEW = PAGE_FOLDER + "/FollowupView.jsp";
+	public String FOLLOWUP_LIST_VIEW = PAGE_FOLDER + "/FollowupListView.jsp";
+	
 	public String PURCHASE_VIEW = PAGE_FOLDER + "/PurchaseView.jsp";
 	public String PURCHASE_LIST_VIEW = PAGE_FOLDER + "/PurchaseListView.jsp";
+	
+	public String FAVOURITE_VIEW = PAGE_FOLDER + "/FavouriteView.jsp";
+	public String FAVOURITE_LIST_VIEW = PAGE_FOLDER + "/FavouriteListView.jsp";
 	// public String ERROR_VIEW5 = PAGE_FOLDER + "/ErrorView5.jsp";
 
 	public String MARKSHEET_CTL = APP_CONTEXT + "/ctl/MarksheetCtl";
@@ -96,11 +102,17 @@ public interface ORSView {
 	public String PATIENT_CTL = APP_CONTEXT + "/ctl/PatientCtl ";
 	public String PATIENT_LIST_CTL = APP_CONTEXT + "/ctl/PatientListCtl";
 	
+	public String FOLLOWUP_CTL = APP_CONTEXT + "/ctl/FollowupCtl ";
+	public String FOLLOWUP_LIST_CTL = APP_CONTEXT + "/ctl/FollowupListCtl";
+	
 	public String CUSTOMER_CTL = APP_CONTEXT + "/ctl/CustomerCtl";
 	public String CUSTOMER_LIST_CTL = APP_CONTEXT + "/ctl/CustomerListCtl";
 	
 	public String PURCHASE_CTL = APP_CONTEXT + "/ctl/PurchaseCtl";
 	public String PURCHASE_LIST_CTL = APP_CONTEXT + "/ctl/PurchaseListCtl";
+	
+	public String FAVOURITE_CTL = APP_CONTEXT + "/ctl/FavouriteCtl";
+	public String FAVOURITE_LIST_CTL = APP_CONTEXT + "/ctl/FavouriteListCtl";
 
 
 }
